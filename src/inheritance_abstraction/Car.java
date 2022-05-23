@@ -18,6 +18,9 @@ public abstract class Car {
     }
     public abstract void start();
 
+    public static void carStatic(){
+        System.out.println("Car Static");
+    }
     @Override
     public String toString() {
         return "Car{" +
@@ -27,5 +30,9 @@ public abstract class Car {
                 ", color='" + color + '\'' +
                 ", price=" + price +
                 '}';
+
+
+
+      //  return String.format("Car{year=%d, make='%s', model='%s', color='%s', price=%f}", year, make, model, color, price);
     }
 }
