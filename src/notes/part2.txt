@@ -20,6 +20,16 @@ Java Boot Camp
 		31. Maps
 
 
+
+
+
+
+
+
+
+
+
+
 16. OOP: Object Oriented Programming
 		code reusability
 		centralized structure
@@ -52,7 +62,7 @@ Java Boot Camp
 		  A class can be extended by multiple classes
 
 
-	    TesteBase
+	    TestBase
 			  driver
 
 			@BeforeMethod  {
@@ -95,6 +105,7 @@ Java Boot Camp
 			Abstract Car
 				make, model, color, year, price..
 				drive(), toString()
+				start();
 
 
 			Toyota extends Car
@@ -184,7 +195,7 @@ Java Boot Camp
 
 22. abstract class vs interface:
 			
-			- one class can extend oen abstract class only
+			- one class can extend one abstract class only
 			- one class implement multiple interface
 			- one interface can extend multiple interfaces
 
